@@ -8,7 +8,7 @@ const generateView = (props) => {
                 {
                     props.data.map((data) => {
                         return  <div>
-                            <Card img={data.image} name={data.name} id={data.id} rating={data.rating} tags={data.tags} />
+                            <Card img={data.image} name={data.name} eta={data.eta} id={data.id} rating={data.rating} tags={data.tags} />
                         </div>
                     })
                 }

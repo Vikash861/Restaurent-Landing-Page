@@ -1,0 +1,42 @@
+.sortBar{
+    display:flex;
+    justify-content: flext-start;
+    gap: 4rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.sortBar > div{
+    cursor: pointer;
+}
+
+
+
+.sort > div{
+    display:flex;
+    gap: 0.3rem;
+    margin: 0.3rem;
+}
+
+.sort li{
+    cursor: pointer;
+}
+
+.filter{
+
+}
+.filter > div >div{
+    display:flex;
+    gap: 0.3rem;
+}
+
+
+/* ===================================small device============================== */
+
+@media only screen and (max-width:600px){
+    .sortBar{
+        flex-direction: column;
+        gap:1rem;
+    }
+}

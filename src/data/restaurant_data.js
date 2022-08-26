@@ -43,6 +43,15 @@ const restaurantData = [
         eta:15,
         tags:["veg","chinese","momos"],
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqYnwOysdU1TyMyacMF6tPenqM_bZH7ksJ3g&usqp=CAU"
+    },
+    {
+        name:"vivek dhaba",
+        id:4,
+        location:"lucknow",
+        rating:3.4,
+        eta:25,
+        tags:["veg","north indian","momos"],
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOm72ENJkaHBLocjuDgTeaqflbg3tLcR0AQw&usqp=CAU"
     }
 ]
 
